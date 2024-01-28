@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Aditi Gupta</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="nav">
+        <div class="logo2">Aditi Gupta</div>
+        <div class="menu">
+            <div class="icon" onclick="toggleMenu()">
+            <span></span>
+            <span> </span>
+            <span></span>
+         </div>
+         <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+         </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="profile-photo">
+            <img  src="./Profile.jpeg" alt="Aditi gupta" />
+        </div>
+        <div class="profile-text">
+            <p class="p1">Hello, I'm</p>
+            <h1 class="name">Aditi Gupta</h1>
+            <p class="p2">A front-end, back-end developer and a programmer</p>
+        <div class="btn-container">
+            <button class="CV-btn" 
+            onclick="window.open('./resume-ad.pdf')">Download CV</button>
+        </div>
+        <div class="source-links">
+            <img  class="icon" src="linkedln.jpg.png" alt="linkedln-profile" 
+            onclick="location.href='https://www.linkedin.com/feed/'" />
+            <img class="icon" src="github.png" alt="github-profile" 
+            onclick="location.href='https://github.com/Aditigupta108'" />
+        </div>
+        </div>
+        <img src="./down-arrow.png" alt="arrow-icon"
+        class="icon-arrow" onClick="location.href='./#about'" />
+
+    </section>
+    <section id="about">
+        <p class="text_p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="experience-icon.png"
+                    alt="Experience icon" class="icon">
+                    <h3>Experience</h3>
+                    <p>➡ Successfully developed E-Commerce website under
+                        <br> the guidance of Stone-Eve Company </p>
+                    <p>➡ 1+ years <br> Frontend and Backend Development</p>    
+                    <p>➡ Learning and building the dynamic projects using react</p>
+                </div>
+                <div class="details-container">
+                    <img src="education-icon.png" 
+                    alt="education-icon" class="icon" />
+                    <h3>Education</h3>
+                    <p> ➡ Bachelors Of Enginnering in<br>
+                    Information Technology</p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>
+                    A highly driven and meticulous software developer
+                     looking for a challenging role to use my coding
+                     , debugging, and problem-solving abilities. 
+                     Anticipating the opportunity to offer 
+                    creative answers for challenging technological 
+                    problems and support the expansion 
+                    of an innovative business. 
+
+                </p>
+            </div>
+        </div>
+        <img src="./down-arrow.png" alt="arrow-icon"
+        class="icon-arrow" onClick="location.href='./#Experience'" />
+    </section>
+    <section id="Experience">
+        <p class="text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="Experience-container">
+            <div class="a">
+            <div class="sub-title">
+                <h3>Frontend Development</h2>
+            <div class="article-container">
+                <article>
+                    <div>
+                        <h3>HTML</h3>
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <h3>CSS</h3>
+                        <p>⭐⭐⭐⭐</p>
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <h3>JAVASCRIPT</h3>
+                        <p>⭐⭐</p>
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <h3>TAILWIND</h3>
+                        <p>⭐⭐⭐⭐</p>
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <h3>REACT</h3>
+                        <p>⭐⭐⭐⭐</p>
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <h3>JEST TOOL</h3>
+                        <p>⭐⭐⭐</p>
+                    </div>
+                </article>
+            </div>
+            </div>
+        </div>
+        <div class="a">
+            <div class="sub-title">
+                <h3>Backend Development</h2>
+            <div class="article-container">
+                <article>
+                    <div>
+                        <h3>NODE JS</h3>
+                        <p>⭐⭐⭐⭐</p>
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <h3>EXPRESS JS</h3>
+                        <p>⭐⭐⭐⭐</p>
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <h3>APIs</h3>
+                        <p>⭐⭐⭐⭐</p>
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <h3>REDUX</h3>
+                        <p>⭐⭐⭐⭐</p>
+                    </div>
+                </article>
+                <article>
+                    
+                    <div>
+                        <h3>GIT</h3>
+                        <p>⭐⭐⭐</p>
+                    </div>
+                </article>
+                <article>
+                    
+                    <div>
+                        <h3>FIREBASE AUTHENTICATION</h3>
+                        <p>⭐⭐⭐</p>
+                    </div>
+                </article>
+            </div>
+            </div>
+            </div>
+            <div class="a">
+            <div class="sub-title">
+                <h3>Programming</h2>
+            <div class="article-container">
+                <article>
+                    <div>
+                        <h3>DSA</h3>
+                        <p>⭐⭐⭐⭐</p>
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <h3>JAVA</h3>
+                        <p>⭐⭐⭐</p>
+                    </div>
+                </article>
+              
+            </div>
+            </div>
+            </div>
+            
+        </div>
+        <img src="./down-arrow.png" alt="arrow-icon"
+        class="icon-arrow" onClick="location.href='./#Projects'" />
+    </section>
+    <section id="Projects">
+        <p class="text_p1">Browse my recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="projects-container">
+            <div class="project-details-container">
+                <div class="project-article-container">
+                    <img src="https://assets.materialup.com/uploads/394e1997-8cfa-4deb-8bd6-470a3362c09f/preview.jpg">
+                    </div>
+                <h3 class="textt">Food Ordering App</h3>
+                <button class="btn">Github</button>
+                </div>
+                <div class="project-details-container">
+                    <div class="project-article-container">
+                        <img src="https://thumbies.net/wp-content/uploads/2021/09/Clean-2-768x432.png">
+                        </div>
+                    <h3 class="textt">NetflixGPT App</h3>
+                    <button class="btn"
+                    onclick="location.href='https://github.com/Aditigupta108/Netflix-Gpt'">
+                    Github</button>
+                </div>
+                    <div class="project-details-container">
+                        <div class="project-article-container">
+                            <img src="https://cdn.phpjabbers.com/files/templates_img/template94-1.jpg">
+                        </div>
+                        <h3 class="textt">Shopping Website</h3>
+                        <button class="btn" 
+                        onclick="location.href='https://github.com/Atom-Atharva/Stone-Eve'">
+                        Github</button>
+                        </div>
+        </div>
+        <img src="./down-arrow.png" alt="arrow-icon"
+        class="icon-arrow" onClick="location.href='./#contact'" />
+    </section>
+    <section id="contact">
+        <p class="text_p1">Get in Touch </p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info">
+            <div class="contact-info-container">
+                <img src="email.png"
+                alt="email-icon" class="icon__">
+                <p><a href="mailto:i.aditigupta192@gmail.com">i.aditigupta192@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="linkedln.jpg.png"
+                alt="linkedin-icon"
+                class="icon__">
+                <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-conatiner">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#Experience">Experience</a></li>
+                        <li><a href="#Projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            </div>
+        </nav>
+    </footer>
+    <script src="app.js"></script>
+    
+</body>
+</html>
